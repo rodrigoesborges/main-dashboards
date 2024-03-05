@@ -11,16 +11,17 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+source("utils.R")
 ```
 
 Repositório principal do curso Dashboards.
 
-Inscreva-se no curso: https://www.curso-r.com/cursos/dashboards/
+Inscreva-se no curso: https://cursos.borges.net.br/cursos/dashboards/
 
 **Acesse o material completo do curso escolhendo uma das turmas abaixo**.
 
 ```{r, echo = FALSE}
-knitr::kable(CursoRutils:::listar_turmas_recentes("dashboards"))
+knitr::kable(listar_turmas_recentes("dashboards"))
 ```
 
 # Ementa
